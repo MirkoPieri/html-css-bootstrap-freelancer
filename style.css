@@ -33,6 +33,7 @@ header .row div > a:hover {
 /* primo blocco */
 .primoblocco {
   background-color: #1ABC9C;
+  padding-top: 100px;
 }
 
  .avatar {
