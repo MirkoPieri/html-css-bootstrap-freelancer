@@ -110,7 +110,7 @@ header .row div > a:hover {
 }
 
 .portfolio a:hover {
-  filter: brightness(70%);
+  filter: opacity(40%);
 }
 
 .bloc {
