@@ -1,5 +1,7 @@
 /* nav bar */
-
+.row {
+  margin: 20px 0;
+}
 header .row a {
   text-transform: uppercase;
   font-size: 20pt;
@@ -19,12 +21,11 @@ header .row div > a:hover {
 }
 
 .color {
-  padding: 20px 0;
   background-color: #2C3E50;
 }
 
+/* primo blocco */
 .primoblocco {
-  padding: 80px 0;
   background-color: #1ABC9C;
 }
 
@@ -36,7 +37,6 @@ header .row div > a:hover {
  }
 
  .textcolor {
-   margin-top: 20px;
    text-align: center;
    color: white;
    text-transform: uppercase;
@@ -49,7 +49,6 @@ header .row div > a:hover {
 
 
 .line {
-  margin-top: 20px;
   max-width: 100%;
   height: 4px;
   background-color: white;
@@ -74,7 +73,7 @@ header .row div > a:hover {
 
 /* blocco porfolio */
 .general-portfolio {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .textcolor-blue {
@@ -90,7 +89,6 @@ header .row div > a:hover {
 }
 
 .line-blue {
-  margin-top: 20px;
   max-width: 100%;
   height: 4px;
   background-color: #2C3E50;
@@ -103,4 +101,32 @@ header .row div > a:hover {
 
 .portfolio a img {
   border-radius: 10px;
+}
+
+.portfolio a:hover {
+  filter: brightness(70%);
+}
+
+.bloc {
+  margin-top: 20px;
+}
+
+/* blocco about */
+
+.color-about {
+  background-color: #1ABC9C;
+}
+
+.textcolor .no-uppercase {
+  text-transform: none;
+  text-align: left;
+  font-size: 15pt;
+}
+
+.position-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #1ABC9C;
+  color: white
 }
